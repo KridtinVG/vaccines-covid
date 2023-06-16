@@ -57,3 +57,6 @@ code {
   display: grid;
   justify-items: center;
 }
+.showText{
+  font-weight: bold;
+}

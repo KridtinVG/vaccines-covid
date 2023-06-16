@@ -253,10 +253,10 @@ const MainForm = () => {
             <Modal.Title>เสร็จสิ้นการลงทะเบียน</Modal.Title>
           </Modal.Header>
           <Modal.Body>
-            <div>Name: {name}</div>
-            <div>Passport ID: {passid}</div>
-            <div>Gender: {gender}</div>
-            <div>Date of Birth: {date && formatSelectedDate(date)}</div>
+            <div className='showText'>ชื่อ-นามสกุล: {name}</div>
+            <div className='showText'>เลขบัตรประจำตัวประชาชน: {passid}</div>
+            <div className='showText'>เพศ: {gender}</div>
+            <div className='showText'>วันเดือนปีเกิด: {date && formatSelectedDate(date)}</div>
             <div>{diffYear(date, today)}</div>
           </Modal.Body>
           <Modal.Footer>
