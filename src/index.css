@@ -11,3 +11,49 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.text-hearder{
+  font-size: 50px;
+  font-family:'Courier New', Courier, monospace;
+  
+}
+
+.customtext{
+  font-size: 24px;
+  color: rgb(0, 0, 0);
+}
+.card{
+  background-color: rgb(77, 180, 198)!important;
+  padding-left: 25%;
+  padding-right: 25%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+.container{
+  margin-top: 3%;
+}
+
+.input-group .btn {
+  padding-left: 15% ;
+  padding-right: 15%;
+}
+
+.input-group {
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.aboutText{
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.input-group-append{
+  width: 100%;
+  display: grid;
+  justify-items: center;
+}
+
+.btn btn-light{
+  display: grid;
+  justify-items: center;
+}
